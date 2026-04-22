@@ -1,0 +1,313 @@
+## Questões (Pág. 9)
+
+| UVa/Kattis | Title | Hint |
+| ---------- | ----- | ---- |
+| wordcloud  | Word  | Cloud   | Section 1.6 |
+| turbo | Turbo | Section 2.4 |
+| 10360 | Rat Attack | Section 3.2 |
+| hindex | H-Index | Section 3.3 |
+| 11292 | Dragon of Loowater | Section 3.4 |
+| 11450 | Wedding Shopping | Section 3.5 |
+| 11512 | GATTACA | Book 2 |
+| 10065 | Useless Tile Packers | Book 2 |
+| 11506 | Angry Programmer | Book 2 |
+| bilateral | Bilateral Projects | Book 2 |
+| carpool | Carpool | Book 2 |
+
+---
+
+## Programming Exercises to get you started35 (Pág. 28)
+
+### a. I/O + Sequences Only
+1. Entry Level: Kattis - hello * (just print “Hello World!”)
+2. UVa 10071 - Back to High School ... * (super simple: output 2 ⇥ v ⇥ t)
+3. UVa 11614 - Etruscan Warriors ... * (root of a quadratic equation)
+4. UVa 13025 - Back to the Past * (giveaway, just print the one-line answer)
+5. Kattis - carrots * (just print P)
+6. Kattis - r2 * (just print 2 ⇥ S  R1)
+7. Kattis - thelastproblem * (S can have space(s))
+    Extra UVa: 11805. 12478.
+    Extra Kattis: faktor, planina, romans.
+
+### b. Repetition Only
+1. Entry Level: Kattis - timeloop * (just print ‘num Abracadabra’ N times)
+2. UVa 01124 - Celebrity Jeopardy * (LA 2681 - SouthEasternEurope06;
+just echo/re-print the input again)
+3. UVa 11044 - Searching for Nessy * (one liner code/formula exists)
+4. UVa 11547 - Automatic Answer * (a one liner O(1) solution exists)
+5. Kattis - di↵erent * (use abs function per test case)
+6. Kattis - qaly * (trivial loop)
+7. Kattis - tarifa * (one pass; array not needed)
+    Extra UVa: 10055.
+
+### c. Selection Only
+1. Entry Level: Kattis - moscowdream * (if-else; 2 cases; check n  3)
+2. Kattis - isithalloween * (if-else; 2 cases)
+3. Kattis - judgingmoose * (if-else if-else; 3 cases)
+4. Kattis - onechicken * (if-else if-else; 4 cases (piece vs pieces))
+5. Kattis - provincesandgold * (if-else if-else; 6 cases)
+6. Kattis - quadrant * (if-else if-else; 4 cases)
+7. Kattis - temperature * (if-else if-else; 3 cases; derive formula)
+
+### d. Multiple Test Cases + Selection
+1. Entry Level: Kattis - oddities * (2 cases)
+2. UVa 11172 - Relational Operators * (very easy; one liner)
+3. UVa 12250 - Language Detection * (LA 4995 - KualaLumpur10; if-else)
+4. UVa 12372 - Packing for Holiday * (just check if all L, W, H  20)
+5. Kattis - eligibility * (3 cases)
+6. Kattis - helpaphd * (2 cases)
+7. Kattis - leftbeehind * (4 cases)
+    Extra UVa: 00621, 11723, 11727, 12289, 12468, 12577, 12646, 12917.
+    Extra Kattis: nastyhacks, numberfun.
+
+### e. Control Flow (solvable in under 7 minutes36)
+1. Entry Level: Kattis - statistics * (one pass; array not needed)
+2. UVa 11764 - Jumping Mario * (one linear scan to count high+low jumps)
+3. UVa 11799 - Horror Dash * (one linear scan; find max value)
+4. UVa 12279 - Emoogle Balance * (simple linear scan)
+5. Kattis - fizzbuzz * (actually just about easy divisibility properties)
+6. Kattis - licensetolaunch * (easy linear pass)
+7. Kattis - oddgnome * (linear pass)
+    Extra UVa: 00272, 10300, 11364, 11498, 12403, 13012, 13034, 13130.
+    Extra Kattis: babybites, cold, earlywinter, jobexpenses, speedlimit, starar-rangements, thanos, zanzibar.
+
+### f. Function
+1. Entry Level: Kattis - mia * (just if-else check)
+2. UVa 10424 - Love Calculator * (just do as asked)
+3. UVa 11078 - Open Credit System * (one linear scan; max function)
+4. UVa 11332 - Summing Digits * (simple recursion)
+5. Kattis - artichoke * (LA 7150 - WorldFinals Marrakech15; linear scan; also
+available at UVa 01709 - Amalgamated Artichokes)
+6. Kattis - digits * (direct simulation; also available at UVa 11687 - Digits)
+7. Kattis - filip * (create a ‘reverse string’ function; then if-else check)
+    Extra Kattis: abc, combinationlock, treasurehunt.
+
+### g. 1D Array Manipulation, Easier
+1. Entry Level: Kattis - lostlineup * (simple 1D array manipulation)
+2. UVa 01585 - Score * (LA 3354 - Seoul05; very easy one pass algorithm)
+3. UVa 11679 - Sub-prime * (simulate; see if all banks have  0 reserve)
+4. UVa 12015 - Google is Feeling Lucky * (traverse the list twice)
+5. Kattis - acm * (simple simulation; one pass; record #WA per problem)
+6. Kattis - cetiri * (sort 3 number helps; 3 cases)
+7. Kattis - lineup * (sort ascending/descending and compare)
+    Extra UVa: 11942.
+    Extra Kattis: basketballoneonone, hothike.
+
+### h. Easy
+1. Entry Level: Kattis - hissingmicrophone * (simple loop)
+2. UVa 12503 - Robot Instructions * (easy simulation)
+3. UVa 12658 - Character Recognition? * (character recognition check)
+4. UVa 12696 - Cabin Baggage * (LA 6608 - Phuket13; easy problem)
+5. Kattis - batterup * (easy one loop)
+6. Kattis - hangingout * (simple loop)
+7. Kattis - pokerhand * (frequency count; report max)
+    Extra UVa: 01641, 10963, 12554, 12750, 12798.
+    Extra Kattis: armystrengtheasy, armystrengthhard, brokenswords, drinking-song, mosquito, ptice, sevenwonders, volim, yinyangstones.
+    Others: IOI 2010 - Cluedo (3 pointers), IOI 2010 - Memory (2 linear pass).
+
+### i. Still Easy
+1. Entry Level: Kattis - bubbletea * (simple simulation)
+2. UVa 11559 - Event Planning * (one linear pass)
+3. UVa 11683 - Laser Sculpture * (one linear pass is enough)
+4. UVa 11786 - Global Raining ... * (need to observe the pattern)
+5. Kattis - bossbattle * (trick question)
+6. Kattis - peasoup * (one linear pass)
+7. Kattis - vote * (follow the requirements)
+    Extra UVa: 10114, 10141, 10324, 11586, 11661, 12614, 13007.
+    Extra Kattis: boundingrobots, climbingstairs, deathtaxes, driversdilemma,eventplanning, exactlyelectrical, missingnumbers, prerequisites, sok.
+
+### j. Medium
+
+1. Entry Level: Kattis - basicprogramming1 * (a nice summative problem for programming examination of a basic programming methodology course)
+2. UVa 11507 - Bender B. Rodriguez ... * (simulation; if-else)
+3. UVa 12157 - Tari↵ Plan * (LA 4405 - KualaLumpur08; compute and compare the two plans)
+4. UVa 12643 - Tennis Rounds * (it has tricky test cases)
+5. Kattis - battlesimulation * (one pass; special check on 3! = 6 possible com-binations of 3 combo moves)
+6. Kattis - bitsequalizer * (analyzing patterns; also available at UVa 12545 - Bits Equalizer)
+7. Kattis - fastfood * (eventually just one pass due to the constraints)
+    Extra UVa: 00119, 00573, 00661, 01237, 11956.
+    Extra Kattis: anotherbrick, beekeeper, bottledup, carousel, climbingworm,codecleanups, cowcrane, howl, shatteredcake.
+Others: IOI 2009 - Garage (simulation), IOI 2009 - POI (sort).
+
+---
+
+## Programming Exercises about Ad Hoc problems (Pág. 36)
+
+### a. Game (Card)
+1. Entry Level: UVa 10646 - What is the Card? * (shu✏e cards with some rules and then get a certain card)
+2. UVa 10388 - Snap * (card simulation; uses random number to determine moves; need data structure to maintain the face-up and face-down cards)
+3. UVa 11678 - Card’s Exchange * (just an array manipulation problem)
+4. UVa 12247 - Jollo * (interesting card game; simple, but requires good logic to get all test cases correct)
+5. Kattis - bela * (simple card scoring problem)
+6. Kattis - shu✏ing * (simulate card shu✏ing operation)
+7. Kattis - memorymatch * (interesting simulation game; many corner cases)
+    Extra UVa: 00162, 00462, 00555, 10205, 10315, 11225, 12366, 12952.
+    Extra Kattis: karte.
+
+### b. Game (Chess)
+1. Entry Level: UVa 00278 - Chess * (basic chess knowledge is needed; derive
+the closed form formulas)
+2. UVa 00255 - Correct Move * (check the validity of chess moves)
+3. UVa 00696 - How Many Knights * (ad hoc; chess)
+4. UVa 10284 - Chessboard in FEN * (FEN = Forsyth-Edwards Notation
+is a standard notation for describing board positions in a chess game)
+5. Kattis - chess * (bishop movements; either impossible, 0, 1, or 2 ways - one of this can be invalid; just use brute force)
+6. Kattis - empleh * (the reverse problem of Kattis - helpme *)
+7. Kattis - helpme * (convert the given chess board into chess notation)
+    Extra UVa: 10196, 10849, 11494.
+    Extra Kattis: bijele.
+    Also see N-Queens Problem (Section 3.2.2 and Book 2) and Knight Moves (Section 4.4.2) for other chess related problems.
+
+### c. Game (Others), Easier
+1. Entry Level: UVa 10189 - Minesweeper * (simulate the classic Minesweeper game; similar to UVa 10279)
+2. UVa 00489 - Hangman Judge * (just do as asked)
+3. UVa 00947 - Master Mind Helper * (similar to UVa 00340)
+4. UVa 11459 - Snakes and Ladders * (simulate it; similar to UVa 00647)
+5. Kattis - connectthedots * (classic children game; output formatting)
+6. Kattis - gamerank * (simulate the ranking update process)
+7. Kattis - guessinggame * (use a 1D flag array; also available at UVa 10530 - Guessing Game)
+    Extra UVa: 00340, 10279, 10409, 12239.
+    Extra Kattis: trik.
+
+### d. Game (Others), Harder (more tedious)
+1. Entry Level: Kattis - rockpaperscissors * (count wins and losses; output win average; also available at UVa 10903 - Rock-Paper-Scissors ...)
+2. UVa 00584 - Bowling * (simulation; games; reading comprehension)
+3. UVa 10813 - Traditional BINGO * (follow the problem description)
+4. UVa 11013 - Get Straight * (check permutations of 5 cards to determine the best run; brute force the 6th card and replace one of your card with it)
+5. Kattis - battleship * (simulation; reading comprehension; many corner cases)
+6. Kattis - tictactoe2 * (check validity of Tic Tac Toe game; tricky; also available at UVa 10363 - Tic Tac Toe)
+7. Kattis - turtlemaster * (interesting board game to teach programming for children; simulation)
+    Extra UVa: 00114, 00141, 00220, 00227, 00232, 00339, 00379, 00647.
+    Extra Kattis: rockscissorspaper.
+
+### e. Interesting Real Life Problems, Easier
+1. Entry Level: Kattis - wertyu * (use 2D mapper array to simplify the problem; also available at UVa 10082 - WERTYU)
+2. UVa 00637 - Booklet Printing * (application in printer driver software)
+3. UVa 01586 - Molar mass * (LA 3900 - Seoul07; basic Chemistry)
+4. UVa 13151 - Rational Grading * (marking programming exam; ad hoc; straightforward)
+5. Kattis - chopin * (you can learn a bit of music with this problem)
+6. Kattis - compass * (your typical smartphone’s compass function usually has this small feature)
+7. Kattis - trainpassengers * (create a verifier; be careful of corner cases)
+    Extra UVa: 00362, 11530, 11744, 11945, 11984, 12195, 12808.
+    Extra Kattis: calories, fbiuniversal, heartrate, measurement, parking, tran-sitwoes.
+
+### f. Interesting Real Life Problems, Medium
+1. Entry Level: Kattis - luhnchecksum * (very similar (⇡95%) to UVa 11743)
+2. UVa 00161 - Trac Lights * (this is a typical situation on the road)
+3. UVa 10528 - Major Scales * (music knowledge in problem description)
+4. UVa 11736 - Debugging RAM * (this is a (simplified) introduction to Computer Organization on how computer stores data in memory)
+5. Kattis - beatspread * (be careful with boundary cases; also available at UVa 10812 - Beat the Spread)
+6. Kattis - toilet * (simulation; be careful of corner cases)
+7. Kattis - wordcloud * (just a simulation; but be careful of corner cases)
+    Extra UVa: 00187, 00447, 00457, 00857, 10191, 11743, 12555,
+    Extra Kattis: musicalscales, recipes, score.
+
+### g. Interesting Real Life Problems, Harder (more tedious)
+1. Entry Level: UVa 00706 - LC-Display * (like in old digital display)
+2. UVa 01061 - Consanguine Calc... * (LA 3736 - WorldFinals Tokyo07; try all eight possible blood + Rh types with the information given)
+3. UVa 01091 - Barcodes * (LA 4786 - WorldFinals Harbin10; tedious simulation and reading comprehension)
+4. UVa 11279 - Keyboard Comparison * (extension of UVa 11278 problem; interesting to compare QWERTY and DVORAK keyboard layout)
+5. Kattis - creditcard * (real life issue; precision error issue if we do not convert double (with just 2 digits after decimal point) into long long)
+6. Kattis - touchscreenkeyboard * (follow the requirements; sort)
+7. Kattis - workout * (gym simulation; use 1D arrays to help you simulate the time quickly)
+    Extra UVa: 00139, 00145, 00333, 00346, 00403, 00448, 00449, 00538, 10659, 11223, 12342, 12394.
+    Extra Kattis: bungeejumping, saxophone, tenis.
+
+### h. Time, Easier
+1. Entry Level: Kattis - marswindow * (simple advancing of year and month by 26 months or 2 years+2 months each; direct formula exists)
+2. UVa 00579 - Clock Hands * (be careful with corner cases)
+3. UVa 12136 - Schedule of a Marr... * (LA 4202 - Dhaka08; check time)
+4. UVa 12148 - Electricity * (easy with GregorianCalendar; use ‘add’ method to add 1 day to previous date; see if it is the same as the current date)
+5. Kattis - friday * (the answer depends on the start day of the month)
+6. Kattis - justaminute * (linear pass; total seconds/(total minutes*60))
+7. Kattis - savingdaylight * (convert hh:mm to minute; compute di↵erence of ending and starting; then convert minute to hh:mm again)
+    Extra UVa: 00893, 10683, 11219, 11356, 11650, 11677, 11958, 12019, 12531,13275.
+    Extra Kattis: datum, spavanac.
+
+### i. Time, Harder
+1. Entry Level: Kattis - timezones * (follow the description, tedious; also avail-able at UVa 10371 - Time Zones)
+2. UVa 10942 - Can of Beans * (try all 3! = 6 permutations of 3 integers to form YY MM DD; check validity of the date; pick the earliest valid date)
+3. UVa 11947 - Cancer or Scorpio * (relatively easy but tedious; use Java GregorianCalendar)
+4. UVa 12822 - Extraordinarily large LED * (convert hh:mm:ss to second to simplify the problem; then this is just a tedious simulation problem)
+5. Kattis - bestbefore * (tedious; 3! = 6 possibilities to check)
+6. Kattis - birthdayboy * (convert mm-dd into [0..364]; use DAT; find largest gap via brute force)
+7. Kattis - natrij * (convert hh:mm:ss to seconds; make sure the second time is larger than the first time; corner case: 24:00:00)
+    Extra UVa: 00150, 00158, 00170, 00300, 00602, 10070, 10339, 12439.
+    Extra Kattis: busyschedule, dst, semafori, tgif.
+
+### j. Roman Numerals
+1. Entry Level: UVa 00759 - The Return of the ... * (validation problem)
+2. UVa 00185 - Roman Numerals * (also involving backtracking)
+3. UVa 00344 - Roman Digititis * (count Roman chars used in [1..N])
+4. UVa 11616 - Roman Numerals * (Roman numeral conversion problem)
+5. UVa 12397 - Roman Numerals * (each Roman digit has a value)
+6. Kattis - rimski * (to Roman/to Decimal conversion problem; use next permutation to be sure)
+7. Kattis - romanholidays * (generate and sort the first 1K Roman strings; “M” is at index 945; append prefix ‘M’ for numbers larger than 1K)
+
+### k. Cipher/Encode/Encrypt/Decode/Decrypt, Easier
+1. Entry Level: UVa 13145 - Wuymul Wixcha * (shift alphabet values by +6 characters to read the problem statement; simple Caesar Cipher problem)
+2. UVa 10851 - 2D Hieroglyphs ... * (ignore border; treat ‘\/’ as 1/0)
+3. UVa 11278 - One-Handed Typist * (map QWERTY keys to DVORAK)
+4. UVa 12896 - Mobile SMS * (simple cipher; use mapper)
+5. Kattis - conundrum * (simple cipher)
+6. Kattis - encodedmessage * (simple 2D grid cipher)
+7. Kattis - t9spelling * (similar to (the reverse of) UVa 12896)
+    Extra UVa: 00444, 00641, 00795, 00865, 01339, 10019, 10222, 10878, 10896, 10921, 11220, 11541, 11946, 13107.
+    Extra Kattis: drmmessages, drunkvigenere, kemija08, keytocrypto, reverserot, runlengthencodingrun.
+
+### l. Cipher/Encode/Encrypt/Decode/Decrypt, Medium
+1. Entry Level: Kattis - secretmessage * (just do as asked; use 2D grid)
+2. UVa 00245 - Uncompress * (LA 5184 - WorldFinals Nashville95)
+3. UVa 00492 - Pig Latin * (ad hoc; similar to UVa 00483)
+4. UVa 11787 - Numeral Hieroglyphs * (follow the description)
+5. Kattis - anewalphabet * (simple cipher; 26 characters)
+6. Kattis - piglatin * (simple; check the vowels that include ‘y’ and process it)
+7. Kattis - tajna * (simple 2D grid cipher)
+    Extra UVa: 00483, 00632, 00739, 00740, 11716.
+    Extra Kattis: falsesecurity, permcode.
+
+### m. Input Parsing (Iterative)
+1. Entry Level: UVa 11878 - Homework Checker * (expression parsing)
+2. UVa 00397 - Equation Elation * (iteratively perform the next operation)
+3. UVa 01200 - A DP Problem * (LA 2972 - Tehran03; tokenize input)
+4. UVa 10906 - Strange Integration * (BNF parsing; iterative solution)
+5. Kattis - autori * (simple string tokenizer problem)
+6. Kattis - pervasiveheartmonitor * (simple parsing; then finding average)
+7. Kattis - timebomb * (just a tedious input parsing problem; divisibility by 6)
+    Extra UVa: 00271, 00327, 00391, 00442, 00486, 00537, 11148, 12543, 13047, 13093.
+    Extra Kattis: genealogical, tripletexting.
+
+### n. Output Formatting, Easier
+1. Entry Level: UVa 00488 - Triangle Wave * (use several loops)
+2. UVa 01605 - Building for UN * (LA 4044 - NortheasternEurope07; we can answer this problem with just h = 2 levels)
+3. UVa 10500 - Robot maps * (simulate; output formatting)
+4. UVa 12364 - In Braille * (2D array check; check all possible digits [0..9])
+5. Kattis - display * (unordered map; map a digit ! enlarged 7x5 version)
+6. Kattis - musicalnotation * (simple but tedious)
+7. Kattis - skener * (enlarging 2D character array)
+    Extra UVa: 00110, 00320, 00445, 00490, 10146, 10894, 11074, 11482, 11965, 13091.
+    Extra Kattis: krizaljka, mirror, multiplication, okvir, okviri.
+
+### o. Time Waster Problems, Easier
+1. Entry Level: Kattis - asciiaddition * (a+b problem in text format; total gimmick; time waster)
+2. UVa 11638 - Temperature Monitoring * (simulation; needs to use bitmask for parameter C)
+3. UVa 12085 - Mobile Casanova * (LA 2189 - Dhaka06; watch out for PE)
+4. UVa 12608 - Garbage Collection * (simulation with several corner cases)
+5. Kattis - glitchbot * (time waster; O(n2) simulation; do not output more than one possible answer)
+6. Kattis - pachydermpeanutpacking * (time waster; simple one loop simulation)
+7. Kattis - printingcosts * (clear time waster; the hard part is in parsing the costs of each character in the problem description)
+    Extra UVa: 00144, 00214, 00335, 00349, 00556, 10028, 10033, 10134, 10850, 12060, 12700.
+    Extra Kattis: averagespeed, gerrymandering.
+
+### p. Time Waster Problems, Harder
+1. Entry Level: UVa 10188 - Automated Judge Script * (simulation)
+2. UVa 00405 - Message Routing * (simulation)
+3. UVa 11717 - Energy Saving Micro... * (tricky simulation)
+4. UVa 12280 - A Digital Satire of ... * (a tedious problem)
+5. Kattis - froggie * (just a simulation; but many corner cases; S can be 0)
+6. Kattis - functionalfun * (just follow the description; 5 cases; tedious parsing problem; requires a kind of mapper)
+7. Kattis - windows * (LA 7162 - WorldFinals Marrakech15; tedious simulation problem; also available at UVa 01721 - Window Manager)
+    Extra UVa: 00337, 00381, 00603, 00618, 00830, 00945, 10142, 10267, 10961,11140.
+    Extra Kattis: interpreter, lumbercraft, sabor, touchdown.
+
+---
