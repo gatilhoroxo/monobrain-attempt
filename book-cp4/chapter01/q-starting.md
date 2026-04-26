@@ -3,11 +3,11 @@
 
 ### a. I/O + Sequences Only
 1. Entry Level: Kattis - hello * (just print “Hello World!”)
-2. UVa 10071 - Back to High School ... * (super simple: output 2 ⇥ v ⇥ t)
+2. UVa 10071 - Back to High School ... * (super simple: output 2*v*t)
 3. UVa 11614 - Etruscan Warriors ... * (root of a quadratic equation)
 4. UVa 13025 - Back to the Past * (giveaway, just print the one-line answer)
 5. Kattis - carrots * (just print P)
-6. Kattis - r2 * (just print 2 ⇥ S  R1)
+6. Kattis - r2 * (just print 2*S  R1)
 7. Kattis - thelastproblem * (S can have space(s))
     Extra UVa: 11805. 12478.
     Extra Kattis: faktor, planina, romans.
