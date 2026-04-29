@@ -1,0 +1,3 @@
+calculo|qual é o teorema fundamental do calculo?
+algoritmos|como funciona o bubble sort?
+hardware|como é o design do processador
