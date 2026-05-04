@@ -2,25 +2,19 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long int
 
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    int n;
+    ll n;
     cin >> n;
 
-    int x;
+    ll x;
     while(n--){
         cin >> x;
-        int ans=0;
-        for(int i=1; (x >= 0); i++){
-            if((x-i) >= 0){
-                ans++;
-            }
-            x-=i;
-        }
-
-        printf("%d\n", ans);
+        ll ans = floor(((-1)+floor(sqrt(1+8*x)))/2);
+        printf("%lld\n", ans);
     }
 }
